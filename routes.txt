@@ -1,0 +1,82 @@
+
+  GET|HEAD        / ............................................................................................ 
+  POST            _ignition/execute-solution ignition.executeSolution › Spatie\LaravelIgnition › ExecuteSolutio…
+  GET|HEAD        _ignition/health-check . ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
+  POST            _ignition/update-config ignition.updateConfig › Spatie\LaravelIgnition › UpdateConfigControll…
+  GET|HEAD        api/user ..................................................................................... 
+  GET|HEAD        bodegas ............................................... bodegas.index › BodegaController@index
+  POST            bodegas ............................................... bodegas.store › BodegaController@store
+  GET|HEAD        bodegas/create ...................................... bodegas.create › BodegaController@create
+  GET|HEAD        bodegas/{bodega} ........................................ bodegas.show › BodegaController@show
+  PUT|PATCH       bodegas/{bodega} .................................... bodegas.update › BodegaController@update
+  DELETE          bodegas/{bodega} .................................. bodegas.destroy › BodegaController@destroy
+  GET|HEAD        bodegas/{bodega}/edit ................................... bodegas.edit › BodegaController@edit
+  GET|HEAD        categorias ...................................... categorias.index › CategoriaController@index
+  POST            categorias ...................................... categorias.store › CategoriaController@store
+  GET|HEAD        categorias/create ............................. categorias.create › CategoriaController@create
+  GET|HEAD        categorias/{categoria} ............................ categorias.show › CategoriaController@show
+  PUT|PATCH       categorias/{categoria} ........................ categorias.update › CategoriaController@update
+  DELETE          categorias/{categoria} ...................... categorias.destroy › CategoriaController@destroy
+  GET|HEAD        categorias/{categoria}/edit ....................... categorias.edit › CategoriaController@edit
+  GET|HEAD        clientes ............................................ clientes.index › ClienteController@index
+  POST            clientes ............................................ clientes.store › ClienteController@store
+  GET|HEAD        clientes/create ................................... clientes.create › ClienteController@create
+  GET|HEAD        clientes/{cliente} .................................... clientes.show › ClienteController@show
+  PUT|PATCH       clientes/{cliente} ................................ clientes.update › ClienteController@update
+  DELETE          clientes/{cliente} .............................. clientes.destroy › ClienteController@destroy
+  GET|HEAD        clientes/{cliente}/edit ............................... clientes.edit › ClienteController@edit
+  GET|HEAD        confirm-password .................. password.confirm › Auth\ConfirmablePasswordController@show
+  POST            confirm-password .................................... Auth\ConfirmablePasswordController@store
+  GET|HEAD        dashboard .............................................. dashboard › DashboardController@index
+  POST            email/verification-notification verification.send › Auth\EmailVerificationNotificationControl…
+  GET|HEAD        entradas ........................................... entradas.index › EntradasController@index
+  POST            entradas ........................................... entradas.store › EntradasController@store
+  GET|HEAD        entradas/create .................................. entradas.create › EntradasController@create
+  GET|HEAD        entradas/{entrada} ................................... entradas.show › EntradasController@show
+  PUT|PATCH       entradas/{entrada} ............................... entradas.update › EntradasController@update
+  DELETE          entradas/{entrada} ............................. entradas.destroy › EntradasController@destroy
+  GET|HEAD        entradas/{entrada}/edit .............................. entradas.edit › EntradasController@edit
+  GET|HEAD        existencias ................................... existencias.index › ExistenciaController@index
+  POST            existencias ................................... existencias.store › ExistenciaController@store
+  GET|HEAD        existencias/create .......................... existencias.create › ExistenciaController@create
+  GET|HEAD        existencias/export ................ existencias.exportExcel › ExistenciaController@exportExcel
+  GET|HEAD        existencias/{existencia} ........................ existencias.show › ExistenciaController@show
+  PUT|PATCH       existencias/{existencia} .................... existencias.update › ExistenciaController@update
+  DELETE          existencias/{existencia} .................. existencias.destroy › ExistenciaController@destroy
+  GET|HEAD        existencias/{existencia}/edit ................... existencias.edit › ExistenciaController@edit
+  GET|HEAD        existencias/{id}/stock ......................................... ExistenciaController@getStock
+  GET|HEAD        forgot-password ................... password.request › Auth\PasswordResetLinkController@create
+  POST            forgot-password ...................... password.email › Auth\PasswordResetLinkController@store
+  GET|HEAD        login ..................................... login › Auth\AuthenticatedSessionController@create
+  POST            login .............................................. Auth\AuthenticatedSessionController@store
+  POST            logout .................................. logout › Auth\AuthenticatedSessionController@destroy
+  GET|HEAD        movimientos ................................... movimientos.index › MovimientoController@index
+  GET|HEAD        movimientos/export ............... movimientos.export › MovimientoController@exportMovimientos
+  PUT             password .................................... password.update › Auth\PasswordController@update
+  GET|HEAD        productos ......................................... productos.index › ProductoController@index
+  POST            productos ......................................... productos.store › ProductoController@store
+  GET|HEAD        productos/create ................................ productos.create › ProductoController@create
+  GET|HEAD        productos/{producto} ................................ productos.show › ProductoController@show
+  PUT|PATCH       productos/{producto} ............................ productos.update › ProductoController@update
+  DELETE          productos/{producto} .......................... productos.destroy › ProductoController@destroy
+  GET|HEAD        productos/{producto}/edit ........................... productos.edit › ProductoController@edit
+  GET|HEAD        profile ................................................ profile.edit › ProfileController@edit
+  PATCH           profile ............................................ profile.update › ProfileController@update
+  DELETE          profile .......................................... profile.destroy › ProfileController@destroy
+  GET|HEAD        register ..................................... register › Auth\RegisteredUserController@create
+  POST            register ................................................. Auth\RegisteredUserController@store
+  POST            reset-password ............................. password.store › Auth\NewPasswordController@store
+  GET|HEAD        reset-password/{token} .................... password.reset › Auth\NewPasswordController@create
+  GET|HEAD        salidas .............................................. salidas.index › SalidasController@index
+  POST            salidas .............................................. salidas.store › SalidasController@store
+  GET|HEAD        salidas/create ..................................... salidas.create › SalidasController@create
+  GET|HEAD        salidas/{salida} ....................................... salidas.show › SalidasController@show
+  PUT|PATCH       salidas/{salida} ................................... salidas.update › SalidasController@update
+  DELETE          salidas/{salida} ................................. salidas.destroy › SalidasController@destroy
+  GET|HEAD        salidas/{salida}/edit .................................. salidas.edit › SalidasController@edit
+  GET|HEAD        sanctum/csrf-cookie ........ sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
+  GET|HEAD        verify-email .................... verification.notice › Auth\EmailVerificationPromptController
+  GET|HEAD        verify-email/{id}/{hash} .................... verification.verify › Auth\VerifyEmailController
+
+                                                                                             Showing [78] routes
+
